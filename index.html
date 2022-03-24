@@ -7,7 +7,7 @@
        * SITE_NAME：站点名称
        */
       window.GLOBAL_CONFIG = {
-        SCF_GATEWAY: "//od-api.moelove.tk/",
+        SCF_GATEWAY: "https://od-api.moelove.tk",
         SITE_NAME: "MoeCloud",
         IS_CF: true,
       };
@@ -15,9 +15,9 @@
         window.GLOBAL_CONFIG.SCF_GATEWAY += "/fodi/";
         window.GLOBAL_CONFIG.IS_CF = false;
       }
-      if (location.protocol === 'http:') {
-          location.href = location.href.replace(/http/, 'https');
-      }
+//       if (location.protocol === 'http:') {
+//           location.href = location.href.replace(/http/, 'https');
+//       }
     </script>
     <meta charset="utf-8" />
     <meta
